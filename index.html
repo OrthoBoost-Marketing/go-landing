@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Consent Mode v2 defaults (must load before any tags) -->
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});</script>
-<!-- End Consent Mode defaults -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PH9WP2ZC');</script>
+<!-- End Google Tag Manager -->
 <title>Book a Free Strategy Call with Dr. Tyler Coles — OrthoBoost</title>
 <link rel="icon" type="image/svg+xml" href="/assets/emblem.svg">
 <meta name="description" content="Book a free 30-minute strategy call with Dr. Tyler Coles — an orthodontist who grew his practice from 2 to 7 locations. We'll map your growth and whether you need the full system or just a new website. No obligation.">
@@ -404,7 +404,7 @@ footer{background:var(--navy);color:var(--white);border-top:1px solid var(--w-16
     </div>
     <div class="f-bottom">
       <span>&copy; 2026 ORTHO BOOST LLC. All rights reserved.</span>
-      <span><a href="https://startorthoboost.com/privacy-policy">Privacy Policy</a> &nbsp;·&nbsp; <a href="https://startorthoboost.com/terms-and-conditions">Terms of Service</a> &nbsp;·&nbsp; <a href="#" class="cc-open">Your Privacy Choices</a></span>
+      <span><a href="https://startorthoboost.com/privacy-policy">Privacy Policy</a> &nbsp;·&nbsp; <a href="https://startorthoboost.com/terms-and-conditions">Terms of Service</a></span>
     </div>
   </div>
 </footer>
@@ -429,53 +429,5 @@ footer{background:var(--navy);color:var(--white);border-top:1px solid var(--w-16
 })();
 </script>
 
-<!-- Cookie consent (Google Consent Mode v2) -->
-<style>
-#cc-banner{position:fixed;left:16px;right:16px;bottom:16px;z-index:400;max-width:660px;margin:0 auto;background:#142F56;color:#fff;border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:20px 22px;box-shadow:0 24px 60px -22px rgba(0,0,0,.6);font-family:'Inter',system-ui,sans-serif}
-#cc-banner .cc-body{display:flex;gap:14px 22px;align-items:center;flex-wrap:wrap;justify-content:space-between}
-#cc-banner p{margin:0;font-size:13.5px;line-height:1.55;color:rgba(255,255,255,.82);flex:1 1 330px}
-#cc-banner p strong{color:#fff}
-#cc-banner a{color:#29BBF6;font-weight:600}
-#cc-banner .cc-actions{display:flex;gap:10px;align-items:center;flex:0 0 auto;flex-wrap:wrap}
-#cc-banner button{font-family:inherit;font-weight:800;font-size:13px;border-radius:999px;padding:11px 24px;cursor:pointer;border:0;transition:filter .2s,border-color .2s}
-#cc-banner .cc-accept{background:#29BBF6;color:#142F56}
-#cc-banner .cc-accept:hover{filter:brightness(1.07)}
-#cc-banner .cc-reject{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4)}
-#cc-banner .cc-reject:hover{border-color:#fff}
-#cc-banner button:focus-visible{outline:2px solid #fff;outline-offset:2px}
-@media(max-width:560px){#cc-banner .cc-actions{width:100%}#cc-banner button{flex:1}}
-</style>
-<div id="cc-banner" role="dialog" aria-modal="false" aria-label="Cookie consent" hidden>
-<div class="cc-body">
-<p><strong>We value your privacy.</strong> We use cookies for analytics and advertising to measure and improve our marketing. Nothing non-essential runs until you choose. See our <a href="https://startorthoboost.com/privacy-policy#cookies">Privacy Policy</a>.</p>
-<div class="cc-actions">
-<button type="button" class="cc-reject" id="cc-reject">Decline</button>
-<button type="button" class="cc-accept" id="cc-accept">Accept</button>
-</div>
-</div>
-</div>
-<script>
-(function(){
-var KEY='ob_consent_v2',W=window,D=document;W.dataLayer=W.dataLayer||[];
-function gtag(){W.dataLayer.push(arguments);}
-var GTM='GTM-PH9WP2ZC',loaded=false;
-function loadGTM(){if(loaded)return;loaded=true;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',GTM);}
-function grant(){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}
-function store(v){try{localStorage.setItem(KEY,v);}catch(e){}}
-function read(){try{return localStorage.getItem(KEY);}catch(e){return null;}}
-var banner=D.getElementById('cc-banner');
-function show(){if(banner)banner.hidden=false;}
-function hide(){if(banner)banner.hidden=true;}
-function accept(){store('granted');grant();loadGTM();hide();}
-function decline(){var was=loaded;store('denied');hide();if(was)W.location.reload();}
-var prior=read();
-if(prior==='granted'){grant();loadGTM();}else if(prior!=='denied'){show();}
-var A=D.getElementById('cc-accept'),R=D.getElementById('cc-reject');
-if(A)A.addEventListener('click',accept);
-if(R)R.addEventListener('click',decline);
-D.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('.cc-open');if(t){e.preventDefault();show();}});
-})();
-</script>
-<!-- End cookie consent -->
 </body>
 </html>
