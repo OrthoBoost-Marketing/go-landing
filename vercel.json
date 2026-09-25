@@ -1,4 +1,7 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://startorthoboost.com/schedule", "permanent": false }
+  ]
 }
